@@ -1,0 +1,22 @@
+/* CSS */
+
+
+body {
+  background: #fff;
+  color: #000;
+}
+
+.header {
+  padding-top: 30pt;
+  padding-bottom: 10pt;
+}
+
+.desciption {
+  padding-top: calc(var(--baseline) * 0.75);
+  padding-bottom: calc(var(--baseline) * 0.25);
+  margin-bottom: var(--baseline);
+}
+
+span.block {
+  display: none;
+}
