@@ -17,6 +17,18 @@ body {
   margin-bottom: var(--baseline);
 }
 
+@media screen and (max-width: 600px) {
+  .header {
+    order: -2;
+  }
+  .description {
+    order: -1;
+  }
+ .thesis {
+    order: 1;
+  }
+}
+
 span.block {
   display: none;
 }
